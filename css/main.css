@@ -1,6 +1,7 @@
 /* Body text */
 body {
-  background-color: hsl(36, 51%, 86%);
+  background: rgb(102,122,107);
+  background: linear-gradient(135deg, rgba(102,122,107,1) 0%, rgba(238,224,203,1) 61%, rgba(17,29,19,1) 91%);
   height: 100vh;
   margin-top: 100px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
@@ -26,11 +27,15 @@ body {
 
 /* Call to Action "button" */
 .cta a, .cta a:visited {
+  display: block;
+  width: fit-content;
   text-decoration: none;
   color: hsl(36, 51%, 86%);
-  background-color: #111D13;
+  background-color: hsl(130, 26%, 9%);
   padding: 10px;
   border-radius: 8px;
+  margin: auto;
+  margin-top: 20px;
 }
 
 /* Hover state */
