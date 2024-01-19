@@ -1,7 +1,7 @@
 /* Body text */
 body {
   background: rgb(102,122,107);
-  background: linear-gradient(135deg, rgba(102,122,107,1) 0%, rgba(238,224,203,1) 61%, rgba(17,29,19,1) 91%);
+  background: linear-gradient(138deg, rgba(102,122,107,1) 0%, rgba(238,224,203,1) 30%, rgba(87,40,64,1) 91%);
   height: 100vh;
   margin-top: 100px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
@@ -15,7 +15,7 @@ body {
   border-radius: 10px;
   text-decoration: none;
   padding: 10px 20px 20px;
-  border: solid hsl(330, 37%, 25%);
+  border: solid #572840;
   border-width: 2.5px;
   margin: auto;
   width: 25%;
